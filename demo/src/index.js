@@ -2,11 +2,6 @@ import React, { Component } from 'react'
 import {render } from 'react-dom';
 import { LocalWrapper } from '../../src';
 
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Main from './components/Main';
-import Docs from './components/Docs';
-
 import en from '../../locales/en';
 import es from '../../locales/es';
 import tr from '../../locales/tr';
@@ -29,15 +24,13 @@ class App extends Component {
   render() {
     return (
       <LocalWrapper
-        data={en}
+        data={data}
         wrapper={({ lit,setLang }) => (
           <div>
-            <Header setLang={setLang} lit={lit} docs={this.viewDocuments}/>
-            {this.state.viewDocs ?
-               <Docs lit={lit} /> : 
-               <Main lit={lit} docs={this.viewDocuments}/>
-            }
-            <Footer />
+           <button onClick={() => setLang('tr')}>tr</button>
+           <button onClick={() => setLang('en')}>en</button>
+           <button onClick={() => setLang('es')}>es</button>
+           {lit('hello')}
           </div>
         )}
       />

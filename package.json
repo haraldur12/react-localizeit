@@ -18,10 +18,7 @@
     "test:coverage": "nwb test-react --coverage",
     "test:watch": "nwb test-react --server"
   },
-  "dependencies": {
-    "enzyme-adapter-react-16": "^1.1.1",
-    "react-bootstrap": "^0.32.1"
-  },
+  "dependencies": {},
   "peerDependencies": {
     "react": "16.x"
   },
@@ -34,7 +31,8 @@
     "nwb": "0.21.x",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-test-renderer": "^16.2.0"
+    "react-test-renderer": "^16.2.0",
+    "enzyme-adapter-react-16": "^1.1.1"
   },
   "author": "haraldur",
   "homepage": "",
