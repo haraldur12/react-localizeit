@@ -18,7 +18,7 @@ class LocalWrapper extends React.Component {
       lit: (word) => {
         if(typeof word === "string"){
           let value;
-          if (!this.props.data[this.state.lang].hasOwnProperty(word)) {
+          if (this.props.data[this.state.lang] && !this.props.data[this.state.lang].hasOwnProperty(word)) {
             value = this.props.data.en[word]
           }
           else if (this.props.data[this.state.lang]) {
@@ -28,14 +28,13 @@ class LocalWrapper extends React.Component {
             value = this.props.data[word]
           }
           return value;
-        } else {
+        }   else {
           console.error(
             `Argument ${word} supplied to lit as props is not a string.
              But a ${typeof word}.
              You can only pass strings as to arguments to lit.
             `)
-        }
-      
+        }      
       }
     });
   }
@@ -46,4 +45,3 @@ LocalWrapper.propTypes = {
 };
 
 export { LocalWrapper };
-

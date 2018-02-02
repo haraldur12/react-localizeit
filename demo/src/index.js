@@ -7,9 +7,9 @@ import Footer from './components/Footer';
 import Main from './components/Main';
 import Docs from './components/Docs';
 
-import en from './locales/en';
-import es from './locales/es';
-import tr from './locales/tr';
+import en from '../../locales/en';
+import es from '../../locales/es';
+import tr from '../../locales/tr';
 
 const data = { en ,es ,tr};
 
@@ -29,7 +29,7 @@ class App extends Component {
   render() {
     return (
       <LocalWrapper
-        data={data}
+        data={en}
         wrapper={({ lit,setLang }) => (
           <div>
             <Header setLang={setLang} lit={lit} docs={this.viewDocuments}/>
