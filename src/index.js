@@ -11,7 +11,6 @@ class LocalWrapper extends React.Component {
   }
 
   render() {
-    console.log(this.props.wrapper);
     return this.props.wrapper({
       setLang: lang => this.setState({lang}),
       selectedLanguage: this.state.lang,
