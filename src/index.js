@@ -19,15 +19,13 @@ class LocalWrapper extends React.Component {
           let value;
           if (this.props.data[this.state.lang] && !this.props.data[this.state.lang].hasOwnProperty(word)) {
             value = this.props.data.en[word]
-          }
-          else if (this.props.data[this.state.lang]) {
+          } else if (this.props.data[this.state.lang]) {
             value = this.props.data[this.state.lang][word]
-          }
-          else {
+          } else {
             value = this.props.data[word]
           }
           return value;
-        }   else {
+        } else {
           console.error(
             `Argument ${word} supplied to lit as props is not a string.
              But a ${typeof word}.
