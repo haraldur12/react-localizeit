@@ -3,6 +3,8 @@
 [![Travis][build-badge]][build]
 [![npm package][npm-badge]][npm]
 
+See in production [here](http://react-localizeit.surge.sh/).
+
 A simple component for translating your react-app. Once you wrap your views inside the LocalWrapper the translations will be available to rest of your components.
 
 It is tiny package without dependencies. 
@@ -100,7 +102,7 @@ MIT
 
 
 [build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
-[build]: https://travis-ci.org/haraldur/react-localizeit
+[build]: https://travis-ci.org/haraldur12/react-localizeit
 
 [npm-badge]: https://img.shields.io/npm/v/npm-package.png?style=flat-square
 [npm]: https://www.npmjs.org/package/react-localizeit
