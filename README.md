@@ -1,7 +1,7 @@
 # React Localizeit
 
-[![Travis][build-badge]][build]
-[![npm package][npm-badge]][npm]
+[![Build Status](https://travis-ci.com/haraldur12/react-localizeit.svg?token=qupkSxFbah5FxtwQwLc7&branch=master)](https://travis-ci.com/haraldur12/react-localizeit)
+[![npm version](https://badge.fury.io/js/react-localizeit.svg)](https://badge.fury.io/js/react-localizeit)
 
 See in production [here](http://react-localizeit.surge.sh/).
 

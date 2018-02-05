@@ -1,6 +1,6 @@
 {
   "name": "react-localizeit",
-  "version": "1.4.7",
+  "version": "1.4.8",
   "description": "react-localizeit helps you to translate and render your react components in different languages.",
   "main": "lib/index.js",
   "module": "es/index.js",
