@@ -1,6 +1,6 @@
 {
   "name": "react-localizeit",
-  "version": "1.4.8",
+  "version": "1.5.0",
   "description": "react-localizeit helps you to translate and render your react components in different languages.",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -39,6 +39,6 @@
   "license": "MIT",
   "repository": "https://github.com/haraldur12/react-localizeit",
   "keywords": [
-    "react-component, translation, i18n"
+    "react-component, translation, i18n, localization"
   ]
 }
